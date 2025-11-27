@@ -1,13 +1,95 @@
-.body{
-    background-color: aliceblue;
+body {
+    background-color: #8FABD4;
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.container{
-    border-radius: 10px;
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-shadow: #344f77 2px 2px 4px;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 450px;
+    padding: 30px 50px 50px 50px;
+    margin: 100px 250px 100px 250px;
+    border-radius: 8px;
     border-style: solid;
-    border-color: black;
+    border-color: #344f77;
     border-width: 3px;
-    background-color: white;
+    background-color: #6693bd;
+}
+
+.container h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f0f0f0;
+}
+
+.container2 {
+    font-size: 25px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 3px;
+    background-color: #344f77;
+    width: 400px;
+
+}
+
+.container2 h1 {
+    font-size: 25px;
+}
+
+input {
+    width: 200px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 2px solid #1c5392;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=submit] {
+    width: 200px;
+    height: 60px;
+    padding: 5px 10px;
+    background-color: #1c5392;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    border-color: transparent;
+    transition: ease-in-out 0.2s;
+}
+
+input[type=submit]:hover {
+    width: 200px;
+    height: 60px;
+    padding: 5px 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    border-color: white;
+    transition: ease-in-out 0.2s;
+}
+footer {
+    background-color: #506686;
+    padding: 5px 5px 16px 5px;
+    height: 50px;
+    border-radius: 10px;
 }

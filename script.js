@@ -5,6 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
         e.preventDefault();
         const c = document.querySelector("#name").value;
         const f = (Number(c) * 9/5) + 32;
-        document.querySelector("h1").innerHTML = `${c}°C = ${f}°F`;
+        document.querySelector("#output").innerHTML = `${c}°C = ${f}°F`;
     });
 });
